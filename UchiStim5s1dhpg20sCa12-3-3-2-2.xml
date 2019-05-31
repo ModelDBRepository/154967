@@ -1,0 +1,101 @@
+<StimulationSet>
+
+    <!-- Uchigashima - DSI sims 5 s  -->
+
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               12000          </onset>
+        <duration>            20             </duration>
+        <rate>                30           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               12050          </onset>
+        <duration>            450             </duration>
+        <rate>                1.2           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               12500          </onset>
+        <duration>            19500             </duration>
+        <rate>                1.1           </rate>
+</InjectionStim>
+
+<!-- 1st sec - must have same rate as 1 s -->
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               14000           </onset>
+        <duration>            100           </duration>
+        <rate>                   12           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               14000           </onset>
+        <duration>            100           </duration>
+        <rate>                  60           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               14100           </onset>
+        <duration>            900           </duration>
+        <rate>                   3           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               14100           </onset>
+        <duration>            900           </duration>
+        <rate>                  15           </rate>
+</InjectionStim>
+
+<!-- 2nd sec  -->
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               15000           </onset>
+        <duration>            1000           </duration>
+        <rate>                   3           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               15000           </onset>
+        <duration>            1000           </duration>
+        <rate>                  15           </rate>
+</InjectionStim>
+
+<!-- 3rd sec - half the rate -->
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               16000           </onset>
+        <duration>            1000           </duration>
+        <rate>                   3           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               16000           </onset>
+        <duration>            1000           </duration>
+        <rate>                  15           </rate>
+</InjectionStim>
+
+<!-- 4th sec - half the rate -->
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               17000           </onset>
+        <duration>            1000           </duration>
+        <rate>                   2           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               17000           </onset>
+        <duration>            1000           </duration>
+        <rate>                  10           </rate>
+</InjectionStim>
+
+<!-- 5th sec - yet half again -->
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               18000           </onset>
+        <duration>            1000           </duration>
+        <rate>                   2           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               18000           </onset>
+        <duration>            1000           </duration>
+        <rate>                  10           </rate>
+</InjectionStim>
+
+
+</StimulationSet>

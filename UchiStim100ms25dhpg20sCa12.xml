@@ -1,0 +1,36 @@
+<StimulationSet>
+
+    <!-- Uchigashima - DSI sims 100 ms  -->
+
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               12000          </onset>
+        <duration>            20            </duration>
+        <rate>                625           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               12020          </onset>
+        <duration>            280            </duration>
+        <rate>                30           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               12300          </onset>
+        <duration>            19700             </duration>
+        <rate>                25           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               14000           </onset>
+        <duration>             100           </duration>
+        <rate>                   12           </rate>
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               14000           </onset>
+        <duration>             100           </duration>
+        <rate>                  60           </rate>
+</InjectionStim>
+
+
+</StimulationSet>

@@ -1,0 +1,350 @@
+<StimulationSet>
+
+
+    <!-- the injectionSite must match a regionLabel deefined in the morphology  -->
+   
+ <!-- one dendrite injection, specifying sa2[0:3], with a rate distributed over all the spine (each spine gets total/num spines) 
+DHGP has been changed to once per Ca pulse, but 1/4 the value-->
+
+   <!-- *****************TRAIN 1 *** DHPG inject **********-->   
+  <InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               20000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 20066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+  </InjectionStim>
+
+<!--  Ca pulses TRAIN 1 -- 40 Ca pulses -->
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               20000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 20066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               20000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 20066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+
+<!--------**********DHPG *******TRAIN 2************---------->
+  <InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               35000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 35066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>  
+  </InjectionStim>
+  
+<!--  Ca pulses TRAIN 2 - 80 total Ca pulses -->
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               35000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 35066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>       
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               35000          </onset>
+        <duration>            3              </duration>
+        <rate>               260            </rate>
+        <period>              20             </period>
+        <end>                 35066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>     
+</InjectionStim>
+
+
+<!--------*********DHPG******TRAIN 3***************---------->
+  <InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               50000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 50066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+  </InjectionStim>
+  
+<!-----Calcium TRAIN 3-----120 total Ca pulses ------>
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               50000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 50066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>      
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               50000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 50066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>   
+</InjectionStim>
+
+
+<!--------**********DHPG******TRAIN 4******************------>
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               65000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 65066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>     
+</InjectionStim>
+  
+<!---***Ca TRAIN 4 - 160 total pulses -------->
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               65000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 65066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval> 
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               65000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 65066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval> 
+</InjectionStim>
+
+
+<!--------*********DHPG******TRAIN 5***************---------->
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               80000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 80066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>  
+</InjectionStim>
+
+<!--------*******Ca TRAIN 5 200 pulses **********------------>
+
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               80000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 80066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               80000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 80066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+
+<!--------**********DHPG******TRAIN 6******************------>
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>               95000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 95066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<!--------**********Calcium******TRAIN 6******* 240 total Ca pulses ***********------>
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>               95000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 95066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>  
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>               95000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 95066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>   
+</InjectionStim>
+
+<!--------*********DHPG******TRAIN 7***************---------->
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>              110000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 110066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+
+<!--------**********Calcium******TRAIN 7******* 280 total Ca pulses ***********------>
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>              110000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 110066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>              110000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 110066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<!--------*********DHPG******TRAIN 8***************---------->
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>              125000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 125066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<!--------**********Calcium******TRAIN 8******* 320 total Ca pulses ***********------>
+
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>              125000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 125066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>      
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>              125000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 125066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+
+<!--------*********DHPG******TRAIN 9***************---------->
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>              140000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 140066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>    
+</InjectionStim>
+
+<!--------**********Calcium******TRAIN 9******* 360 total Ca pulses ***********------>
+
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>              140000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 140066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>       
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>              140000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 140066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>       
+</InjectionStim>
+
+
+<!--------*********DHPG******TRAIN 10***************---------->
+<InjectionStim specieID="Dhpg" injectionSite="sa1[0].pointA">
+        <onset>              155000          </onset>
+        <duration>            5              </duration>
+        <rate>                30.0           </rate>
+        <period>              20             </period>
+        <end>                 155066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>       
+</InjectionStim>
+<!--------**********Calcium******TRAIN 10******* 320 total Ca pulses ***********------>
+
+<InjectionStim specieID="Ca" injectionSite="sa1[0].pointA">
+        <onset>              155000          </onset>
+        <duration>            3              </duration>
+        <rate>                256            </rate>
+        <period>              20             </period>
+        <end>                 155066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>     
+</InjectionStim>
+
+<InjectionStim specieID="Ca" injectionSite="sa2[0:3].pointD">
+        <onset>              155000          </onset>
+        <duration>            3              </duration>
+        <rate>                260            </rate>
+        <period>              20             </period>
+        <end>                 155066          </end>
+        <numTrains>           10             </numTrains>
+        <interTrainInterval>  29             </interTrainInterval>     
+</InjectionStim>
+
+
+</StimulationSet>
